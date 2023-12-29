@@ -15,6 +15,8 @@ public class SkockoMain {
 		LinkedList<Integer> unetiZnakovi = new LinkedList<Integer>();
 		LinkedList<Integer> kombinacija = SkockoLogic.randomKombinacija();
 
+		System.out.println("Znakovi se unose jedan ispod drugog, klikom na enter. Dozvoljeno je 7 pokusaja.");
+
 		while (pokusaj < 7) {
 			pokusaj += 1;
 
